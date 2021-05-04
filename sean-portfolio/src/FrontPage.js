@@ -14,7 +14,7 @@ function FrontPage() {
                 <Link to='/Bio'><nav className='navs'>Bio</nav></Link>
                 <nav className='navs'>Photos</nav>
                 <nav className='navs'>Reel</nav>
-                <nav className='navs'>Videos</nav>
+                <Link to='/Videos'><nav className='navs'>Videos</nav></Link>
                 <nav className='navs'>Resume</nav>
                 <nav className='navs'>Contact</nav>
 

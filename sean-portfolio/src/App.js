@@ -3,6 +3,7 @@ import {Switch, Route} from 'react-router-dom';
 import './App.css';
 import Bio from './Bio';
 import FrontPage from './FrontPage';
+import Videos from './Videos';
 // import NavBar from './NavBar';
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
       </Route>
         <Route exact path='/Bio'>
           <Bio />
+        </Route>
+        <Route exact path='/Videos'>
+          <Videos />
         </Route>
       </Switch>
       </div>
